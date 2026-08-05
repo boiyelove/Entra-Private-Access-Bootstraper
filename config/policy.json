@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "project": "Entra-Private-Access-Bootstraper",
+  "rank": 21,
+  "action": "plan_entra_private_access_bootstraper",
+  "allowedCredentialModes": [
+    "managed_identity",
+    "workload_identity"
+  ],
+  "protectedTargets": [
+    "production",
+    "break-glass"
+  ],
+  "allowedTenantIds": [
+    "tenant-a"
+  ]
+}
